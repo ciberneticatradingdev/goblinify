@@ -19,7 +19,7 @@ export default function Hero() {
             GOBLINIFY
           </h1>
           <div className="w-20 h-20 md:w-28 md:h-28 mx-auto">
-            <img src="/favicon.png" alt="Goblin" className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(74,222,32,0.4)]" />
+            <img src="/goblin-logo.png" alt="Goblin" className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(74,222,32,0.4)]" />
           </div>
         </div>
 

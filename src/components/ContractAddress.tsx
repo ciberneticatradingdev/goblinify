@@ -35,7 +35,7 @@ export default function ContractAddress() {
       >
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
-            <span className="text-2xl shrink-0">🧌</span>
+            <img src="/goblin-logo.png" alt="Goblin" className="w-8 h-8 shrink-0 object-contain" />
             <div className="min-w-0">
               <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1">
                 Contract Address
