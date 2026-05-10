@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "coming soon...";
+const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "2NKKndH55hFU3X8b27yxo1eAMKMx9CQeL8EBiWuWpump";
 
 export default function ContractAddress() {
   const [copied, setCopied] = useState(false);
