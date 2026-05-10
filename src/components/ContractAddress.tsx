@@ -2,13 +2,13 @@
 
 import { useState } from "react";
 
-const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "2NKKndH55hFU3X8b27yxo1eAMKMx9CQeL8EBiWuWpump";
+const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "CA WILL UPDATE SOON";
 
 export default function ContractAddress() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    if (CONTRACT_ADDRESS === "coming soon...") return;
+    if (CONTRACT_ADDRESS === "coming soon..." || CONTRACT_ADDRESS === "CA WILL UPDATE SOON") return;
     try {
       await navigator.clipboard.writeText(CONTRACT_ADDRESS);
       setCopied(true);
@@ -41,7 +41,7 @@ export default function ContractAddress() {
                 Contract Address
               </p>
               <p className={`text-sm md:text-base font-mono truncate ${
-                CONTRACT_ADDRESS === "coming soon..."
+                (CONTRACT_ADDRESS === "coming soon..." || CONTRACT_ADDRESS === "CA WILL UPDATE SOON")
                   ? "text-gray-500 italic"
                   : "text-[var(--goblin-accent)]"
               }`}>
