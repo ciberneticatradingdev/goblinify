@@ -12,7 +12,9 @@ export default function LoadingAnimation() {
   return (
     <div className="text-center space-y-8 py-12">
       {/* Bouncing goblin */}
-      <div className="text-8xl md:text-9xl goblin-bounce">👺</div>
+      <div className="w-24 h-24 md:w-32 md:h-32 mx-auto goblin-bounce">
+        <img src="/favicon.png" alt="Goblin" className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(74,222,32,0.5)]" />
+      </div>
 
       {/* Spinner ring */}
       <div className="relative mx-auto w-20 h-20">

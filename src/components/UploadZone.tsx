@@ -73,7 +73,7 @@ export default function UploadZone({ onUpload }: UploadZoneProps) {
 
       <div className="space-y-6">
         <div className="text-6xl md:text-8xl">
-          {isDragging ? "👹" : "📸"}
+          {isDragging ? "🧌" : "📸"}
         </div>
 
         <div className="space-y-2">

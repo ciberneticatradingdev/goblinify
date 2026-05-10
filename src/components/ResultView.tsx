@@ -23,7 +23,7 @@ export default function ResultView({ original, goblinified, onReset }: ResultVie
       {/* Title */}
       <div className="text-center">
         <h2 className="text-3xl md:text-4xl font-black gradient-text">
-          You&apos;ve Been Goblinified! 👺
+          You&apos;ve Been Goblinified! 🧌
         </h2>
         <p className="text-gray-400 mt-2">Before & After</p>
       </div>
@@ -49,7 +49,7 @@ export default function ResultView({ original, goblinified, onReset }: ResultVie
         {/* Goblinified */}
         <div className="space-y-3">
           <p className="text-center text-[var(--goblin-accent)] font-semibold text-sm uppercase tracking-wider">
-            👺 Goblinified (superior)
+            🧌 Goblinified (superior)
           </p>
           <div className="relative aspect-square rounded-2xl overflow-hidden glass ring-2 ring-[var(--goblin-accent)]/50 swamp-glow">
             <Image

@@ -94,7 +94,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-center py-8 text-gray-500 text-sm border-t border-green-900/30">
-        <p>GOBLINIFY 👺 — No goblins were harmed in the making of this app</p>
+        <p>GOBLINIFY 🧌 — No goblins were harmed in the making of this app</p>
         <p className="mt-1">Powered by AI & swamp magic</p>
       </footer>
     </main>

@@ -18,7 +18,9 @@ export default function Hero() {
           <h1 className="text-7xl md:text-9xl font-black tracking-tighter gradient-text">
             GOBLINIFY
           </h1>
-          <div className="text-5xl md:text-7xl">👺</div>
+          <div className="w-20 h-20 md:w-28 md:h-28 mx-auto">
+            <img src="/favicon.png" alt="Goblin" className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(74,222,32,0.4)]" />
+          </div>
         </div>
 
         {/* Tagline */}
@@ -35,7 +37,7 @@ export default function Hero() {
                      rounded-2xl text-lg font-bold transition-all duration-300 
                      hover:scale-105 hover:shadow-lg hover:shadow-[var(--goblin-accent)]/30 swamp-glow"
         >
-          👹 Transform Me Into a Goblin
+          🧌 Transform Me Into a Goblin
         </a>
 
         {/* Stats */}
